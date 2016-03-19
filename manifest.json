@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Khan Academy Program Data",
+  "description": "This extension lets us see program data here on Khan Academy",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "The Khan Academy Program Data Wizard"
+  },
+  "version": "4.1",
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+  "permissions": [
+    "tabs",
+    "https://*.khanacademy.org/cs/*",
+    "http://*.khanacademy.org/*",
+    "https://*.khanacademy.org/*"
+  ]
+}

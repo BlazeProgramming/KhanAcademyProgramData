@@ -1,0 +1,15 @@
+.1em-padding{
+  padding: 1em;
+}
+:focus{
+    outline: 0 !important;
+}
+.label-as-badge {
+    border-radius: 1em;
+}
+.blaze-small{
+  font-size: 0.6em;
+}
+#wowzers{
+  border-radius: 10px;
+}
